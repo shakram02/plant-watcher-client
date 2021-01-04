@@ -7,7 +7,7 @@ ARG GID=1000
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install apt-utils \
-    && apt-get -y install --no-install-recommends vim git zsh sudo \
+    && apt-get -y install --no-install-recommends vim git zsh sudo mosquitto-clients \
     && useradd -ms /bin/zsh ${UNAME}
 
 USER $UNAME

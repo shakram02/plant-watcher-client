@@ -11,7 +11,7 @@ export GID
 run:
 	python python-mqtt-client/client.py
 build:
-	docker build -t client-node:0.1 .
+	docker build -t client-python:0.1 .
 up: 
 	docker-compose up -d
 shell:
