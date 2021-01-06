@@ -1,0 +1,3 @@
+# Ignore JSON DB files
+*.json
+.env
